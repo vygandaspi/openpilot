@@ -15,8 +15,9 @@ class CarControllerParams:
   INACTIVE_STEER_STEP = 10  # Inactive control frames per command (10hz)
   STEER_DELTA_UP = 10  # Delta rates require review due to observed EPS weakness
   STEER_DELTA_DOWN = 15
-  STEER_DRIVER_ALLOWANCE = 65
-  STEER_DRIVER_MULTIPLIER = 4
+  STEER_DRIVER_ALLOWANCE_AGAINST = 65  # allowance when user is steering against desired
+  STEER_DRIVER_ALLOWANCE_WITH = 25  # allownace when user is steering toward desired
+  STEER_DRIVER_MULTIPLIER = 5
   STEER_DRIVER_FACTOR = 100
   NEAR_STOP_BRAKE_PHASE = 0.5  # m/s
 
