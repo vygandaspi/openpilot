@@ -29,6 +29,7 @@ PROCS = {
   "selfdrive.controls.plannerd": 16.5,
   "./_ui": 19.2,
   "selfdrive.locationd.paramsd": 9.0,
+  "selfdrive.locationd.laikad": 9.0,
   "./_sensord": 12.0,
   "selfdrive.controls.radard": 4.5,
   "./_modeld": 4.48,
